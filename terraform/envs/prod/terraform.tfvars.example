@@ -1,0 +1,14 @@
+aws_region      = "us-east-1"
+project_name    = "project-bedrock"
+cluster_name    = "project-bedrock-cluster"
+vpc_name        = "project-bedrock-vpc"
+app_namespace   = "retail-app"
+dev_iam_user    = "bedrock-dev-view"
+lambda_name     = "bedrock-asset-processor"
+
+# Replace with your own unique ID/name
+student_id      = "ohuka-ikenna"
+
+common_tags = {
+  Project = "karatu-2025-capstone"
+}
