@@ -1,0 +1,11 @@
+aws_region = "us-east-1"
+
+# Use lowercase letters, numbers, and hyphens only.
+student_id = "ohuka-ikenna"
+
+# Must be globally unique across AWS.
+state_bucket_name = "project-bedrock-tfstate-ohuka-ikenna"
+
+common_tags = {
+  Project = "karatu-2025-capstone"
+}
