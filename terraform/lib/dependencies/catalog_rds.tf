@@ -5,7 +5,7 @@ module "catalog_rds" {
   name                        = "${var.environment_name}-catalog"
   engine                      = "aurora-mysql"
   engine_version              = "8.0"
-  instance_class              = "db.t3.medium"
+  instance_class              = "db.t3.small"
   allow_major_version_upgrade = true
 
   instances = {

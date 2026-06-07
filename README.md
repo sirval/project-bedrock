@@ -1,5 +1,20 @@
 ![Banner](./docs/images/banner.png)
 
+## Project Bedrock Assessment Layout
+
+This repository now includes an assessment-focused AWS architecture under these paths:
+
+- `.github/workflows/terraform-plan.yml` and `.github/workflows/terraform-apply.yml` for CI/CD.
+- `terraform/backend` for remote state bootstrap.
+- `terraform/envs/prod` for the production Terraform composition.
+- `terraform/modules` for VPC, EKS, data layer, IAM developer access, observability, and serverless resources.
+- `k8s` for namespace, RBAC, ingress, and retail app values.
+- `lambda/asset_processor` for the S3-triggered asset processor.
+- `docs/architecture.md`, `docs/deployment-guide.md`, and `docs/runbook.md` for assessment documentation.
+- `grading.json` for a quick checklist of required deliverables.
+
+Start with [the deployment guide](./docs/deployment-guide.md) for the order of operations.
+
 <div align="center">
   <div align="center">
 
